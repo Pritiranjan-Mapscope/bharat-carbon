@@ -3546,7 +3546,7 @@ del {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .service-area .services-caption {
-        padding: 84px 25px 56px
+        padding: 84px 45px 56px;
     }
 }
 
@@ -3614,6 +3614,16 @@ del {
 
 .services-caption.active {
     border: 1px solid #f54f4f
+}
+
+.service-hi{
+    min-height: 660px;
+    max-height: 800px;
+}
+.services-caption.active-save {
+    border: 2px solid #00b8f5;
+ 
+
 }
 
 .services-caption.active .service-icon::before {
@@ -4116,11 +4126,11 @@ del {
     }
 }
 
-.available-app-area .app-img {
+/* .available-app-area .app-img {
     position: relative;
     right: -88px
-}
-
+} */
+/* 
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
     .available-app-area .app-img {
         right: 0px
@@ -4157,7 +4167,7 @@ del {
 
 .available-app-area .app-img img {
     width: 100%
-}
+} */
 
 .available-app-area .app-shape .app-shape-top {
     position: absolute;
